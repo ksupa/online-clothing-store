@@ -1,282 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Required Meta Tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Additional Information -->
-    <meta name="author" content="Kevin Supa">
-    <meta name="description" content="This website demonstrates modal windows and horizontal scroll elements.">
+    <meta name="author" content="Kevin Supa" />
+    <meta
+      name="description"
+      content="This website demonstrates modal windows and horizontal scroll elements." />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet" />
 
     <title>VAN Clothing</title>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Scripts -->
-     <script src="js/main.js" defer></script>
-     
-</head>
-<body>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
     <header>
-        <div class="flex-container top-header">
-            <a href="#">New Ocean</a>
-            <a href="#">Orange State</a>
-            <a href="#">Player</a>
-        </div>
+      <div class="flex-container top-header">
+        <a href="#">New Ocean</a>
+        <a href="#">Orange State</a>
+        <a href="#">Player</a>
+      </div>
 
-        <div class="nav-bar-header flex-container">
-            <h1>VAN</h1>
-            
-            <nav>
-                <ul class="flex-container">
-                    <li><a href="#">NEW</a></li>
-                    <li><a href="#">SHAPELY</a></li>
-                    <li><a href="#">ANGULAR</a></li>
-                    <li><a href="#">TODDLER</a></li>
-                    <li><a href="#">MATERNITY</a></li>
-                </ul>
-            </nav>
+      <div class="nav-bar-header flex-container">
+        <h1>VAN</h1>
 
-            <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 96"><g clip-path="url(#a)">
-                <title>Hamburger Menu</title><path d="M93.8 18H13.4v18h80.4zm0 24H13.4v18h80.4zm0 24H13.4v18h80.4z" fill="#000"/></g><defs><clipPath id="a"><path fill="#fff" d="M91.9 0H0v96h91.9z"/></clipPath></defs>
-            </svg>
-        </div>
+        <nav>
+          <ul class="flex-container">
+            <li><a href="#">NEW</a></li>
+            <li><a href="#">SHAPELY</a></li>
+            <li><a href="#">ANGULAR</a></li>
+            <li><a href="#">TODDLER</a></li>
+            <li><a href="#">MATERNITY</a></li>
+          </ul>
+        </nav>
+
+        <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 96">
+          <g clip-path="url(#a)">
+            <title>Hamburger Menu</title>
+            <path
+              d="M93.8 18H13.4v18h80.4zm0 24H13.4v18h80.4zm0 24H13.4v18h80.4z"
+              fill="#000" />
+          </g>
+          <defs>
+            <clipPath id="a">
+              <path fill="#fff" d="M91.9 0H0v96h91.9z" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
     </header>
 
-
     <main>
-        <div class="hero-banner">
+      <div class="hero-banner">
+        <picture>
+          <source srcset="img/hero-banner-lg.webp" media="(min-width: 720px)" />
+          <img
+            src="img/hero-banner-sm.webp"
+            alt="A mother holding her son on the beach." />
+        </picture>
+
+        <div class="md-flex">
+          <p>SALE</p>
+          <p>Extra 50% Off Markdowns</p>
+        </div>
+      </div>
+
+      <section class="categories">
+        <h2>Shop by Division</h2>
+
+        <div class="md-flex">
+          <div>
             <picture>
-                <source srcset="img/hero-banner-lg.webp" media="(min-width: 720px)">
-                <img src="img/hero-banner-sm.webp" alt="A mother holding her son on the beach.">
+              <source srcset="img/smile-lg.webp" media="(min-width: 1080px)" />
+              <img
+                src="img/smile-sm.webp"
+                alt="A man with a backpack smiling" />
             </picture>
-
-            <div class="md-flex">
-                <p>SALE</p>
-                <p>Extra 50% Off Markdowns</p>
+            <div>
+              <h3>Everyday Essentials</h3>
+              <p>
+                Dive into our Everyday Essentials collection for must-have
+                pieces that effortlessly blend style and comfort.
+              </p>
+              <a href="membership.html" class="flex-container"
+                >Check it Out
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6">
+                  <title>Forward Arrow</title>
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+              </a>
             </div>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/yoga-lg.webp" media="(min-width: 1080px)" />
+              <img
+                src="img/yoga-sm.webp"
+                alt="A lady doing a yoga pose on the beach" />
+            </picture>
+            <div>
+              <h3>Active &amp; On-the-Go</h3>
+              <p>
+                Get moving with our Activewear line, featuring
+                performance-driven styles designed to keep up with you.
+              </p>
+              <a href="membership.html" class="flex-container"
+                >Go, go, go!
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6">
+                  <title>Forward Arrow</title>
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <picture>
+              <source
+                srcset="img/baby-smiling-lg.webp"
+                media="(min-width: 1080px)" />
+              <img
+                src="img/baby-smiling-sm.webp"
+                alt="A father holding up a smiling baby." />
+            </picture>
+            <div>
+              <h3>Kid Styles</h3>
+              <p>
+                Playful, practical, and oh-so-cool! Step into a world of
+                clothing options that your little ones will love.
+              </p>
+              <a href="membership.html" class="flex-container"
+                >Let's Do It, Baby
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6">
+                  <title>Forward Arrow</title>
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <section class="categories">
-            <h2>Shop by Division</h2>
+      <div class="buttons md-flex">
+        <a href="#">
+          <p>FOUR BRANDS, ONE CART</p>
+          <p>Quick and easy checkout</p>
+        </a>
+        <a href="#">
+          <p>MEMBERS GET MORE</p>
+          <p>Join our loyalty program</p>
+        </a>
+        <a href="#">
+          <p>SAME-DAY DELIVERY BY UBER</p>
+          <p>Get your orders ASAP</p>
+        </a>
+        <a href="#">
+          <p>BUY NOW, PAY LATER</p>
+          <p>Apply for our card</p>
+        </a>
+      </div>
 
-            <div class="md-flex">
-                <div>
-                    <picture>
-                        <source srcset="img/smile-lg.webp" media="(min-width: 1080px)">
-                        <img src="img/smile-sm.webp" alt="A man with a backpack smiling">
-                    </picture>
-                    <div>
-                        <h3>Everyday Essentials</h3>
-                        <p>Dive into our Everyday Essentials collection for must-have pieces that effortlessly blend style and comfort.</p>
-                        <a href="#" class="flex-container">Check it Out
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <title>Forward Arrow</title>
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                              </svg>
-                        </a>
-                    </div>
-                </div>
-                <div>
-                    <picture>
-                        <source srcset="img/yoga-lg.webp" media="(min-width: 1080px)">
-                        <img src="img/yoga-sm.webp" alt="A lady doing a yoga pose on the beach">
-                    </picture>
-                    <div>
-                        <h3>Active &amp; On-the-Go</h3>
-                        <p>Get moving with our Activewear line, featuring performance-driven styles designed to keep up with you.</p>
-                        <a href="#" class="flex-container">Go, go, go!
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <title>Forward Arrow</title>
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                              </svg>
-                        </a>
-                    </div>
-                </div>
-                
-                <div>
-                    <picture>
-                        <source srcset="img/baby-smiling-lg.webp" media="(min-width: 1080px)">
-                        <img src="img/baby-smiling-sm.webp" alt="A father holding up a smiling baby.">
-                    </picture>
-                    <div>
-                        <h3>Kid Styles</h3>
-                        <p>Playful, practical, and oh-so-cool! Step into a world of clothing options that your little ones will love.</p>
-                        <a href="#" class="flex-container">Let's Do It, Baby
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <title>Forward Arrow</title>
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                              </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <!-- Horizontal Scroll -->
+      <section class="extras">
+        <h2>More New Arrivals You'll Love</h2>
 
-        <div class="buttons md-flex">
+        <div class="card-container flex-container">
+          <div class="card">
+            <a href="#"
+              ><img
+                src="img/horizontal-scroll/footed-one-piece.webp"
+                alt="Baby onesie with hearts."
+            /></a>
             <a href="#">
-                <p>FOUR BRANDS, ONE CART</p>
-                <p>Quick and easy checkout</p>
+              <h3>Favorites Organic Cotton Footed One-Piece</h3>
             </a>
+          </div>
+
+          <div class="card">
+            <a href="#"
+              ><img
+                src="img/horizontal-scroll/holiday-set.webp"
+                alt="Black pajamas with white polka dots."
+            /></a>
             <a href="#">
-                <p>MEMBERS GET MORE</p>
-                <p>Join our loyalty program</p>
+              <h3>Organic Cotton Holiday PJ Set</h3>
             </a>
+          </div>
+
+          <div class="card">
+            <a href="#"
+              ><img
+                src="img/horizontal-scroll/puppies.webp"
+                alt="Shirt with drawings of dogs."
+            /></a>
             <a href="#">
-                <p>SAME-DAY DELIVERY BY UBER</p>
-                <p>Get your orders ASAP</p>
+              <h3>Organic Cotton Mix and Match Puff Sleeve t-shirt</h3>
             </a>
+          </div>
+
+          <div class="card">
+            <a href="#"
+              ><img
+                src="img/horizontal-scroll/rib-flare.webp"
+                alt="Pink lounge pants that flare out on the bottom."
+            /></a>
             <a href="#">
-                <p>BUY NOW, PAY LATER</p>
-                <p>Apply for our card</p>
+              <h3>Toddler Mix and Match Rib Flare Leggings</h3>
             </a>
+          </div>
+
+          <div class="card">
+            <a href="#"
+              ><img
+                src="img/horizontal-scroll/stripe-pj.webp"
+                alt="Pajamas with stripes."
+            /></a>
+            <a href="#">
+              <h3>Organic Cotton Stripe PJ Set</h3>
+            </a>
+          </div>
+
+          <div class="card">
+            <a href="#"
+              ><img
+                src="img/horizontal-scroll/footed-one-piece.webp"
+                alt="Baby onesie with hearts."
+            /></a>
+            <a href="#">
+              <h3>Favorites Organic Cotton Footed One-Piece</h3>
+            </a>
+          </div>
+
+          <div class="card">
+            <a href="#"
+              ><img
+                src="img/horizontal-scroll/holiday-set.webp"
+                alt="Black pajamas with white polka dots."
+            /></a>
+            <a href="#">
+              <h3>Organic Cotton Holiday PJ Set</h3>
+            </a>
+          </div>
+
+          <div class="card">
+            <a href="#"
+              ><img
+                src="img/horizontal-scroll/puppies.webp"
+                alt="Shirt with drawings of dogs."
+            /></a>
+            <a href="#">
+              <h3>Organic Cotton Mix and Match Puff Sleeve t-shirt</h3>
+            </a>
+          </div>
+
+          <div class="card">
+            <a href="#"
+              ><img
+                src="img/horizontal-scroll/rib-flare.webp"
+                alt="Pink lounge pants that flare out on the bottom."
+            /></a>
+            <a href="#">
+              <h3>Toddler Mix and Match Rib Flare Leggings</h3>
+            </a>
+          </div>
+
+          <div class="card">
+            <a href="#"
+              ><img
+                src="img/horizontal-scroll/stripe-pj.webp"
+                alt="Pajamas with stripes."
+            /></a>
+            <a href="#">
+              <h3>Organic Cotton Stripe PJ Set</h3>
+            </a>
+          </div>
         </div>
+      </section>
 
-        <!-- Horizontal Scroll -->
-        <section class="extras">
-            <h2>More New Arrivals You'll Love</h2>
+      <aside class="overlay">
+        <div class="modal md-flex">
+          <div class="modal-bg"></div>
 
-            <div class="card-container flex-container">
-                <div class="card">
-                    <a href="#"><img src="img/horizontal-scroll/footed-one-piece.webp" alt="Baby onesie with hearts."></a>
-                    <a href="#">
-                        <h3>Favorites Organic Cotton Footed One-Piece</h3>
-                    </a>
-                </div>
+          <div class="modal-body">
+            <button id="close" class="close flex-container">
+              Close
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6">
+                <title>Exit Button</title>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18 18 6M6 6l12 12" />
+              </svg>
+            </button>
 
-                <div class="card">
-                    <a href="#"><img src="img/horizontal-scroll/holiday-set.webp" alt="Black pajamas with white polka dots."></a>
-                    <a href="#">
-                        <h3>Organic Cotton Holiday PJ Set</h3>
-                    </a>
-                </div>
+            <h2>Unlock so much more.</h2>
+            <p>
+              Sign up for our Member Rewards Program to receive 30% off in store
+              and online – because you’ve earned it.
+            </p>
 
-                <div class="card">
-                    <a href="#"><img src="img/horizontal-scroll/puppies.webp" alt="Shirt with drawings of dogs."></a>
-                    <a href="#">
-                        <h3>Organic Cotton Mix and Match Puff Sleeve t-shirt</h3>
-                    </a>
-                </div>
+            <a href="membership.html" class="btn">SIGN UP NOW</a>
 
-                <div class="card">
-                    <a href="#"><img src="img/horizontal-scroll/rib-flare.webp" alt="Pink lounge pants that flare out on the bottom."></a>
-                    <a href="#">
-                        <h3>Toddler Mix and Match Rib Flare Leggings</h3>
-                    </a>
-                </div>
-
-                <div class="card">
-                    <a href="#"><img src="img/horizontal-scroll/stripe-pj.webp" alt="Pajamas with stripes."></a>
-                    <a href="#">
-                        <h3>Organic Cotton Stripe PJ Set</h3>
-                    </a>
-                </div>
-
-                <div class="card">
-                    <a href="#"><img src="img/horizontal-scroll/footed-one-piece.webp" alt="Baby onesie with hearts."></a>
-                    <a href="#">
-                        <h3>Favorites Organic Cotton Footed One-Piece</h3>
-                    </a>
-                </div>
-
-                <div class="card">
-                    <a href="#"><img src="img/horizontal-scroll/holiday-set.webp" alt="Black pajamas with white polka dots."></a>
-                    <a href="#">
-                        <h3>Organic Cotton Holiday PJ Set</h3>
-                    </a>
-                </div>
-
-                <div class="card">
-                    <a href="#"><img src="img/horizontal-scroll/puppies.webp" alt="Shirt with drawings of dogs."></a>
-                    <a href="#">
-                        <h3>Organic Cotton Mix and Match Puff Sleeve t-shirt</h3>
-                    </a>
-                </div>
-
-                <div class="card">
-                    <a href="#"><img src="img/horizontal-scroll/rib-flare.webp" alt="Pink lounge pants that flare out on the bottom."></a>
-                    <a href="#">
-                        <h3>Toddler Mix and Match Rib Flare Leggings</h3>
-                    </a>
-                </div>
-
-                <div class="card">
-                    <a href="#"><img src="img/horizontal-scroll/stripe-pj.webp" alt="Pajamas with stripes."></a>
-                    <a href="#">
-                        <h3>Organic Cotton Stripe PJ Set</h3>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <aside class="overlay">
-            <div class="modal md-flex">
-                <div class="modal-bg"></div>
-
-                <div class="modal-body">
-                    <button id="close" class="close flex-container">
-                        Close
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <title>Exit Button</title><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-                        </svg>
-                    </button>
-
-                    <h2>Unlock so much more.</h2>
-                    <p>Sign up for our Member Rewards Program to receive 30% off in store and online – because you’ve earned it.</p>
-
-                    <a href="membership.html" class="btn">SIGN UP NOW</a>
-
-                    <p>* Offer valid for new members only. Exclusions apply. See sign up page for <a href="membership.html">offer details.</a></p>
-                </div>
-            </div>
-         </aside>
+            <p>
+              * Offer valid for new members only. Exclusions apply. See sign up
+              page for <a href="membership.html">offer details.</a>
+            </p>
+          </div>
+        </div>
+      </aside>
     </main>
 
-
     <footer>
-        <div class="footer-links md-flex">
-            <div>
-                <h2>CUSTOMER SUPPORT</h2>
-                <ul>
-                    <li><a href="#">Customer Service</a></li>
-                    <li><a href="#">Buy Online</a></li>
-                    <li><a href="#">Pick Up In-Store</a></li>
-                    <li><a href="#">Store Locator</a></li>
-                    <li><a href="#">Gift Cards</a></li>
-                </ul>
-            </div>
-
-            <div>
-                <h2>ABOUT US</h2>
-                <ul>
-                    <li><a href="#">Our Values</a></li>
-                    <li><a href="#">Sustainability</a></li>
-                    <li><a href="#">Equality and Belonging</a></li>
-                    <li><a href="#">Careers</a></li>
-                </ul>
-            </div>
-
-            <div>
-                <h2>VAN GOOD REWARDS</h2>
-                <ul>
-                    <li><a href="#">Our Values</a></li>
-                    <li><a href="#">Sustainability</a></li>
-                    <li><a href="#">Equality and Belonging</a></li>
-                    <li><a href="#">Careers</a></li>
-                </ul>
-            </div>
+      <div class="footer-links md-flex">
+        <div>
+          <h2>CUSTOMER SUPPORT</h2>
+          <ul>
+            <li><a href="#">Customer Service</a></li>
+            <li><a href="#">Buy Online</a></li>
+            <li><a href="#">Pick Up In-Store</a></li>
+            <li><a href="#">Store Locator</a></li>
+            <li><a href="#">Gift Cards</a></li>
+          </ul>
         </div>
 
-        <div class="footer-info">
-            &copy; 2024 VAN, INC. | <a href="#">PRIVACY POLICY</a> | <a href="#">YOUR PRIVACY</a> <a href="#">CHOICES</a> | <a href="#">TERMS OF USE</a> | <a href="#">SUSTAINABILITY</a>
+        <div>
+          <h2>ABOUT US</h2>
+          <ul>
+            <li><a href="#">Our Values</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Equality and Belonging</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
         </div>
+
+        <div>
+          <h2>VAN GOOD REWARDS</h2>
+          <ul>
+            <li><a href="#">Our Values</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Equality and Belonging</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-info">
+        &copy; 2024 VAN, INC. | <a href="#">PRIVACY POLICY</a> |
+        <a href="#">YOUR PRIVACY</a> <a href="#">CHOICES</a> |
+        <a href="#">TERMS OF USE</a> | <a href="#">SUSTAINABILITY</a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
